@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Contacto</title> 
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/estilo.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="../img/logo_mini.png" >
+        <script src="../js/jquery-3.5.1.slim.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="../js/jquery.min.js"></script>
+        <script language="javascript" type="text/javascript" src="../js/jquery.validate.min.js"></script>
+    </head>
+    <body>
+        
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="logo" width="250" height="100"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="recetas.html">Recetas</a>   
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="topbares.html">Top Bares</a>
+                    </li>
+                      </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                  </ul>
+                  <div id="social">
+                    <a href="https://es-la.facebook.com/"><img class="bd-placeholder-img rounded-circle" src="../img/facebook.png" width="30px" height="30px"
+                        alt="facebook"> </a>
+                    <a href="https://twitter.com/?lang=es"><img class="bd-placeholder-img rounded-circle" src="../img/twitter.png" width="30px" height="30px" alt="twitter">
+                    </a>
+                    <a href="https://www.instagram.com/?hl=es-la"><img class="bd-placeholder-img rounded-circle" src="../img/instagram.png" width="30px" height="30px"
+                        alt="instagram"> </a>
+                    <a href="https://www.snapchat.com/l/es/"><img class="bd-placeholder-img rounded-circle" src="../img/snapchat.png" width="30px" height="30px"
+                        alt="snapchat"> </a>
+                  </div>
+        
+                </div>
+              </nav>
+            </header> 
+            <div class="container marketing">
+            </br>
+            <div id ="alertaexistoso"class="alert alert-success alert-dismissible fade show" role="alert" style="display:none;">
+              <strong>Mensaje enviado correctamente!</strong> Próximamente te responderemos :)
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <form id="formulario1">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputNombre">Nombre Completo</label>
+                      <input type="text" class="form-control" name="txt_nombre" id="inputNombre" placeholder="Juan Perez" value="" required="">
+                    </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail">Correo</label>
+                    <input type="email" class="form-control" name="txt_correo" id="inputEmail" placeholder="juanperez@gmail.com">
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                  <label for="inputTelefono">Teléfono Fijo</label>
+                  <input type="text" class="form-control" name="txt_telefono" id="inputTelefono" placeholder="+56221111111">
+                </div>
+               
+                  <div class="form-group col-md-6">
+                    <label for="inputCelular">Celular</label>
+                    <input type="text" class="form-control" name="txt_celular" id="inputCelular" placeholder="+56999999999">
+                  </div>
+                </div>
+
+                  <div class="form-group">
+                    <label for="inputMensaje">Mensaje</label>
+                    <textarea class="form-control" name="txt_mensaje" id="inputMensaje" rows="3"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-secondary">Enviar</button>
+              </form>
+              <script src="../js/validador.js" type="text/javascript"></script>
+            </div>
+    </body>
+</html>
